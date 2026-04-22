@@ -1,0 +1,46 @@
+:root {
+    /* i make this color just for same as India Flag color */
+    --title_color_1: #FF9933;
+    --title_color_2: #138808;
+}
+
+
+.title {
+    /* display: inline-block; */
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.title {
+    transition: transform 0.3s ease,
+        color .5s ease;
+}
+
+.title-container {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.title-one {
+    color: var(--title_color_1);
+}
+
+.title-two {
+    color: var(--title_color_2);
+}
+
+.title:hover {
+    transform: scale(1.1);
+}
+
+.title-one:hover {
+    color: var(--title_color_2);
+}
+
+.title-two:hover {
+    color: var(--title_color_1);
+}
