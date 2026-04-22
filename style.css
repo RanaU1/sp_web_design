@@ -10,3 +10,14 @@ nav a {
     color: rgb(6, 46, 226);
     margin: 10px;
 }
+
+.hover-anim {
+    transition: all 0.3s ease;
+}
+
+.hover-anim:hover {
+    background-color: #198754; /* green */
+    border-color: #198754;
+    transform: scale(2.5);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
