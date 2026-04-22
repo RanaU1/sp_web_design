@@ -1,8 +1,12 @@
+/* This file is: ./style.css
+This file has the code for the css style of the page */
+
+
 body {
     background: cyan;
 }
 
-nav a{
+nav a {
     color: rgb(6, 46, 226);
     margin: 10px;
 }
