@@ -1,3 +1,8 @@
 body {
     background: cyan;
 }
+
+nav a{
+    color: rgb(6, 46, 226);
+    margin: 10px;
+}
