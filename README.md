@@ -17,6 +17,7 @@ git push origin dev
 When i will sure i need to merge this to main i will:
 ```
 git checkout main
+git pull origin main
 git merge dev
 git push origin main
 ```
